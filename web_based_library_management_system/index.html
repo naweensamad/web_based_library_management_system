@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8"> <!-- Specifies the character set for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the website responsive on all devices -->
+    
+    <!-- Page title displayed on the browser tab -->
+    <title>Australian University Library</title>
+    
+    <!-- Linking Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Linking custom CSS file for additional styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <!-- Navbar brand name -->
+        <a class="navbar-brand" href="#">Australian University Library</a>
+        
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <!-- Align navigation links to the right -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a> <!-- Link to the Home page -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="browse&borrowbooks.php">Browse Books</a> <!-- Link to the Browse Books page -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.php">Sign Up</a> <!-- Link to the Sign-Up page -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Login</a> <!-- Link to the Login page -->
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-container">
+        <!-- Hero heading for the main welcome message -->
+        <h1>Welcome to Australian University Library</h1>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <!-- Feature 1: Easy Sign-Up -->
+        <div class="feature-item">
+            <h2>Easy Sign-Up</h2>
+            <p>Join our library to start borrowing books. Sign up in just a few steps.</p>
+            <a href="signup.php" class="feature-link">Sign Up Now</a> <!-- Link to the Sign-Up page -->
+        </div>
+        
+        <!-- Feature 2: Borrow Books Easily -->
+        <div class="feature-item">
+            <h2>Borrow Easily</h2>
+            <p>Logged-in users can borrow books with just a few clicks.</p>
+            <a href="login.php" class="feature-link">Login to Borrow</a> <!-- Link to the Login page -->
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+    <div class="container">
+        <!-- Testimonials heading -->
+        <h2>What Our Members Say</h2>
+        
+        <!-- Testimonial 1 -->
+        <div class="testimonial-item">
+            <p>"The library system makes it so easy to find and borrow books for my studies."</p>
+            <span>- Student A</span>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="testimonial-item">
+            <p>"I love the selection of books across different languages. The interface is simple and professional."</p>
+            <span>- Student B</span>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer bg-dark text-white text-center py-3 mt-4">
+    <!-- Footer text -->
+    <p>&copy; 2024 Australian University Library System</p> <!-- Copyright information -->
+</footer>
+
+<!-- Include Bootstrap JavaScript Bundle for interactive components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Include custom JavaScript for additional interactivity -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

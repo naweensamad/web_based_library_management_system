@@ -1,0 +1,722 @@
+/* Global Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Use a clean, readable font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f8f9fa; /* Light grey background for a clean look */
+}
+
+/* Testimonials Container Styling */
+.testimonials .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Full-width container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+    text-align: center; /* Center-align text */
+    padding: 30px 0; /* Add vertical padding */
+}
+
+.welcome-text h1 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    color: #000; /* Black text color */
+    margin: 0; /* Remove default margin */
+}
+
+/* Main Section Styling */
+.main-section {
+    padding: 50px 0; /* Add vertical padding */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align content */
+}
+
+/* Hero Section Styling */
+.hero {
+    background: linear-gradient(135deg, #f8f9fa, #e2e6ea); /* Light gradient background */
+    color: #333; /* Dark grey text color */
+    padding: 100px 20px; /* Add large padding for spacing */
+    text-align: center; /* Center-align text */
+}
+
+.hero h1 {
+    font-size: 3rem; /* Extra-large heading font size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.hero p {
+    font-size: 1.2rem; /* Medium font size for paragraph */
+    margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.cta-button {
+    background-color: #ffdd57; /* Bright yellow background */
+    color: #343a40; /* Dark grey text color */
+    padding: 15px 30px; /* Add padding for button size */
+    font-size: 1.2rem; /* Slightly larger font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.cta-button:hover {
+    background-color: #e6c800; /* Darker yellow on hover */
+}
+
+/* Features Section Styling */
+.features {
+    padding: 50px 20px; /* Add spacing around the section */
+    background-color: #fff; /* White background */
+}
+
+.features .container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
+    flex-wrap: wrap; /* Wrap items if needed */
+    gap: 40px; /* Space between items */
+}
+
+.feature-item {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #ddd; /* Light border */
+    padding: 50px; /* Add padding for content spacing */
+    width: 30%; /* Set width for each feature */
+    text-align: center; /* Center-align content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.feature-item:hover {
+    transform: translateY(-10px); /* Move slightly up on hover */
+}
+
+.feature-item img {
+    width: 50px; /* Set fixed width for icons */
+    height: 50px; /* Set fixed height for icons */
+    margin-bottom: 20px; /* Space below the icon */
+}
+
+.feature-item h2 {
+    font-size: 1.5rem; /* Larger heading font size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.feature-item p {
+    font-size: 1rem; /* Standard paragraph font size */
+    margin-bottom: 15px; /* Space below the paragraph */
+}
+
+.feature-link {
+    color: #ffdd57; /* Yellow link color */
+    font-weight: bold; /* Bold text */
+    font-size: 1.2rem; /* Larger link font size */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.feature-link:hover {
+    color: #343a40; /* Dark grey on hover */
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    background-color: #4b4b4b; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 50px 20px; /* Add spacing around the section */
+}
+
+.testimonials h2 {
+    font-size: 2rem; /* Larger font size for heading */
+    text-align: center; /* Center-align heading */
+    margin-bottom: 40px; /* Space below the heading */
+}
+
+.testimonial-item {
+    background-color: #343a40; /* Darker grey background */
+    padding: 20px; /* Add padding for spacing */
+    margin: 0 auto 30px; /* Center the testimonial and add bottom margin */
+    max-width: 800px; /* Limit width */
+    text-align: center; /* Center-align content */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.testimonial-item p {
+    font-size: 1.2rem; /* Medium font size for text */
+    margin-bottom: 10px; /* Space below text */
+    color: #fff; /* White text color */
+}
+
+.testimonial-item span {
+    font-size: 1rem; /* Smaller font size for author name */
+    color: #ffdd57; /* Yellow text color for emphasis */
+}
+
+/* Box Component Styling */
+.box {
+    background-color: #ffffff; /* White background */
+    border: 3px solid #333; /* Dark border */
+    padding: 40px; /* Add padding */
+    width: 280px; /* Fixed width */
+    height: 120px; /* Fixed height */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    color: #343a40; /* Dark grey text color */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effects */
+}
+
+.box:hover {
+    background-color: #f8f9fa; /* Light grey background on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #ffffff; /* White background */
+    border: 3px solid #333; /* Dark border */
+    padding: 60px; /* Add spacing for content */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit max width */
+    margin: 0 auto; /* Center the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align content */
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    background-color: #343a40; /* Dark grey background */
+    color: white; /* White text color */
+    padding: 15px; /* Add padding */
+    margin-top: 20px; /* Space above button */
+    font-size: 1rem; /* Standard font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.submit-btn:hover {
+    background-color: #ffdd57; /* Yellow background on hover */
+    color: #000; /* Black text color on hover */
+}
+
+
+
+p {
+    margin-top: 20px; /* Add space above paragraphs */
+    font-size: 0.9rem; /* Small font size for text */
+    color: #343a40; /* Dark grey text color */
+}
+
+p a {
+    color: #ffdd57; /* Bright yellow links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+p a:hover {
+    text-decoration: underline; /* Add underline on hover for emphasis */
+}
+
+/* Logout Message Section Styling */
+.logout-message {
+    background-color: #ffffff; /* White background for message box */
+    border: 3px solid #333; /* Dark border for contrast */
+    padding: 40px; /* Add spacing inside the box */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Limit the maximum width */
+    margin: 50px auto; /* Center box with top margin */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text */
+}
+
+.logout-message h1 {
+    font-size: 2rem; /* Large heading size */
+    color: #343a40; /* Dark grey text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.logout-message p {
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #343a40; /* Dark grey text */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+.logout-message a {
+    color: #ffdd57; /* Yellow color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.logout-message a:hover {
+    color: #000; /* Change to black on hover */
+}
+
+/* Search Section Styling */
+.search-section {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Space items evenly */
+    padding: 20px 0; /* Add vertical padding */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 0 auto; /* Center the section */
+}
+
+.search-section label {
+    font-size: 1.2rem; /* Medium font size for label */
+    margin-right: 20px; /* Add space to the right of the label */
+}
+
+.search-section input {
+    width: calc(100% - 150px); /* Adjust width dynamically */
+    padding: 10px; /* Add padding for input field */
+    font-size: 1rem; /* Standard font size */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Filters Section Styling */
+.filters-section {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping to new lines */
+    gap: 20px; /* Space between filter groups */
+    padding: 20px 0; /* Add vertical padding */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 0 auto; /* Center the section */
+}
+
+.filters-section h3 {
+    width: 100%; /* Full width for headings */
+    font-size: 1.5rem; /* Larger font size */
+    margin-bottom: 15px; /* Space below heading */
+}
+
+.filter-group {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    width: calc(33.33% - 20px); /* Divide space into three columns */
+}
+
+.filter-group label {
+    font-size: 1rem; /* Standard font size */
+    margin-bottom: 5px; /* Space below label */
+}
+
+.filter-group select,
+.filter-group input {
+    padding: 10px; /* Add padding for form elements */
+    font-size: 1rem; /* Standard font size */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Books Section Styling */
+.books-section {
+    padding: 50px 0; /* Add vertical padding */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 0 auto; /* Center the section */
+}
+
+.book-box {
+    background-color: #ffffff; /* White background for book boxes */
+    border: 3px solid #333; /* Dark border for contrast */
+    padding: 20px; /* Add padding inside the box */
+    width: 280px; /* Fixed width for consistency */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center; /* Center-align text */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.book-box h3 {
+    font-size: 1.5rem; /* Larger font size for book titles */
+    color: #343a40; /* Dark grey text color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.book-box p {
+    font-size: 1rem; /* Standard font size for text */
+    color: #777; /* Light grey text for description */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+.borrow-button {
+    background-color: #343a40; /* Dark grey background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding for button size */
+    font-size: 1rem; /* Standard font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.borrow-button:hover {
+    background-color: #ffdd57; /* Change to yellow on hover */
+}
+
+/* Account Title Styling */
+.account-title {
+    text-align: center; /* Center-align the title */
+    margin: 40px 0; /* Add vertical spacing */
+    font-size: 2.5rem; /* Large font size */
+    color: #343a40; /* Dark grey color */
+}
+
+/* Account Container Styling */
+.account-container {
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Stack items vertically */
+    gap: 30px; /* Space between sections */
+    max-width: 90%; /* Limit maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the container */
+}
+
+/* Card Layout Styling */
+.card {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Add padding inside the card */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Full width */
+}
+
+.card h2 {
+    font-size: 2rem; /* Large font size for card headings */
+    color: #343a40; /* Dark grey text color */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Borrowed Books Table Styling */
+.borrowed-books-table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 20px; /* Space above the table */
+}
+
+.borrowed-books-table th, .borrowed-books-table td {
+    padding: 20px; /* Add padding inside cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Light grey border between cells */
+}
+
+.borrowed-books-table th {
+    background-color: #343a40; /* Dark grey header background */
+    color: white; /* White text in header */
+    font-size: 1.3rem; /* Larger font size for header */
+}
+
+.borrowed-books-table td {
+    font-size: 1.1rem; /* Standard font size for table data */
+    color: #343a40; /* Dark grey text */
+}
+
+/* Form Group Styling */
+.form-group {
+    display: flex; /* Flexbox layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Align items vertically */
+    width: 100%; /* Full width */
+}
+
+.form-group label {
+    flex-basis: 20%; /* Allocate 20% space for labels */
+    font-size: 1.2rem; /* Medium font size for labels */
+    color: #343a40; /* Dark grey text color */
+}
+
+.form-group input {
+    flex-basis: 70%; /* Allocate 70% space for input fields */
+    padding: 15px; /* Add padding for input fields */
+    font-size: 1.1rem; /* Standard font size */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark grey text color */
+    width: 100%; /* Full width */
+    margin-bottom: 15px; /* Space below input fields */
+}
+
+/* Edit Book Form Container Styling */
+.edit-book-container {
+    padding: 50px 0; /* Add vertical padding */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center the container */
+    background-color: #ffffff; /* White background */
+    border: 3px solid #333; /* Dark border for emphasis */
+    padding: 30px; /* Add padding inside the form */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Align text to the left */
+    margin-top: 50px; /* Add top margin */
+}
+
+/* Edit Book Form Elements Styling */
+.edit-book-form .form-group {
+    margin-bottom: 30px; /* Space between form groups */
+}
+
+.edit-book-form label {
+    display: block; /* Ensure labels are on their own line */
+    margin-bottom: 10px; /* Space below labels */
+    font-size: 1.2rem; /* Medium font size */
+    color: #343a40; /* Dark grey text color */
+}
+
+.edit-book-form input, 
+.edit-book-form textarea {
+    width: 100%; /* Full width for inputs and text areas */
+    padding: 15px; /* Add padding for inputs */
+    font-size: 1rem; /* Standard font size */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+.edit-book-form button {
+    background-color: #343a40; /* Dark grey background */
+    color: white; /* White text */
+    padding: 15px; /* Add padding for button */
+    font-size: 1rem; /* Standard font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin-top: 20px; /* Space above button */
+}
+
+.edit-book-form button:hover {
+    background-color: #ffdd57; /* Yellow background on hover */
+}
+
+
+/* Dashboard Container */
+.dashboard-container {
+    display: flex; /* Flexbox layout for even spacing of items */
+    justify-content: space-around; /* Space items evenly */
+    margin-bottom: 40px; /* Add bottom margin */
+    width: 90%; /* Limit container width to 90% */
+    margin: 0 auto; /* Center the container */
+}
+
+.dashboard-item {
+    display: flex; /* Flexbox layout for item alignment */
+    justify-content: center; /* Center content */
+    flex-grow: 1; /* Allow items to grow evenly */
+}
+
+.dashboard-item button {
+    width: 100%; /* Full width for buttons */
+    max-width: 350px; /* Limit maximum width */
+    background: linear-gradient(135deg, #343a40, #4b4b4b); /* Gradient background */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding inside button */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1.5rem; /* Large font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s; /* Smooth hover effects */
+}
+
+.dashboard-item button:hover {
+    background: #ffdd57; /* Change background to yellow on hover */
+    color: #343a40; /* Change text color to dark grey */
+    transform: translateY(-5px); /* Lift button slightly */
+}
+
+/* Upcoming Events Section */
+.dashboard-upcoming-events {
+    background: linear-gradient(135deg, #ffffff, #f1f1f1); /* Light gradient background */
+    padding: 50px; /* Add padding inside the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 40px auto 50px auto; /* Center container with vertical spacing */
+    width: 100%; /* Full width */
+    max-width: 1600px; /* Limit maximum width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.dashboard-upcoming-events:hover {
+    transform: translateY(-5px); /* Lift container slightly */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Add deeper shadow on hover */
+}
+
+.dashboard-upcoming-events h3 {
+    font-size: 34px; /* Large font size for headings */
+    color: #343a40; /* Dark grey text color */
+    margin-bottom: 30px; /* Space below heading */
+    border-bottom: 2px solid #ffdd57; /* Yellow underline for heading */
+    padding-bottom: 15px; /* Add space below heading */
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 1px; /* Add letter spacing */
+}
+
+.dashboard-upcoming-events ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.dashboard-upcoming-events ul li {
+    font-size: 22px; /* Medium font size for list items */
+    color: #555; /* Light grey text color */
+    padding: 20px 0; /* Add vertical padding */
+    border-bottom: 1px solid #e0e0e0; /* Light grey border between items */
+    position: relative; /* Relative positioning for icon */
+    padding-left: 50px; /* Add space for icon */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.dashboard-upcoming-events ul li:last-child {
+    border-bottom: none; /* Remove border for last item */
+}
+
+.dashboard-upcoming-events ul li::before {
+    content: "📅"; /* Calendar emoji as an icon */
+    position: absolute; /* Position icon absolutely */
+    left: 0; /* Align icon to the left */
+    top: 0; /* Align icon to the top */
+    font-size: 26px; /* Large icon size */
+    color: #ffdd57; /* Yellow icon color */
+    transform: translateY(5px); /* Adjust vertical position */
+}
+
+.dashboard-upcoming-events ul li:hover {
+    background-color: #f8f8f8; /* Light grey background on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #343a40; /* Dark grey text color on hover */
+}
+
+/* Page Title Styling */
+.page-title {
+    text-align: center; /* Center-align the title */
+    font-size: 2.5rem; /* Large font size */
+    color: #343a40; /* Dark grey text color */
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Return/Delete Form Container */
+.return-delete-container {
+    padding: 50px 0; /* Add vertical padding */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center container */
+    background-color: #ffffff; /* White background */
+    border: 3px solid #333; /* Dark border for contrast */
+    padding: 30px; /* Add padding inside the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Align text to the left */
+    margin-top: 50px; /* Add top margin */
+}
+
+.return-delete-form .form-group {
+    margin-bottom: 30px; /* Space between form groups */
+}
+
+.return-delete-form label {
+    display: block; /* Place label on its own line */
+    margin-bottom: 10px; /* Space below label */
+    font-size: 1.2rem; /* Medium font size */
+    color: #343a40; /* Dark grey text color */
+}
+
+.return-delete-form input {
+    width: 100%; /* Full width for inputs */
+    padding: 15px; /* Add padding inside inputs */
+    font-size: 1rem; /* Standard font size */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 15px; /* Space below inputs */
+}
+
+/* Return and Delete Buttons */
+.return-btn, .delete-btn {
+    background-color: #343a40; /* Dark grey background */
+    color: white; /* White text */
+    padding: 15px; /* Add padding for buttons */
+    font-size: 1rem; /* Standard font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    margin-right: 15px; /* Space between buttons */
+}
+
+.return-btn:hover {
+    background-color: #ffdd57; /* Change to yellow on hover */
+    color: #000; /* Black text on hover */
+}
+
+.delete-btn {
+    background-color: #d9534f; /* Red background for delete button */
+}
+
+.delete-btn:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Footer Text Styling */
+footer p {
+    color: #fff; /* White text for footer */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .feature-item {
+        width: 100%; /* Full width on smaller screens */
+        max-width: 90%; /* Limit maximum width */
+    }
+
+    .testimonials {
+        text-align: center; /* Center-align testimonials */
+    }
+
+    .testimonial-item {
+        margin: 20px auto; /* Add vertical spacing */
+        width: 90%; /* Full width for testimonials */
+    }
+
+    .filter-group {
+        width: 100%; /* Full width for filters */
+        margin-bottom: 15px; /* Space between filters */
+    }
+
+    .filters-section {
+        flex-direction: column; /* Stack filters vertically */
+    }
+
+    .borrowed-books-table {
+        width: 100%; /* Full width for tables */
+        overflow-x: auto; /* Allow horizontal scrolling */
+        display: block; /* Ensure table is block-level */
+    }
+
+    .borrowed-books-table th, 
+    .borrowed-books-table td {
+        white-space: nowrap; /* Prevent text wrapping */
+        padding: 10px; /* Add padding inside cells */
+    }
+
+    .dashboard-container {
+        grid-template-columns: 1fr; /* Single column layout for dashboards */
+        gap: 15px; /* Space between items */
+    }
+}
